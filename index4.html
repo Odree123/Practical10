@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .calc{
+            border: 5px solid blue;
+            margin-right: 20%;
+            margin-left: 30%;    
+            max-height: 260px;
+            width: 500px;
+            text-align: left;
+        }
+    
+        .lb{
+            border: 5px;
+        }
+        h2 {
+            font-weight: 600;
+            font-size: 35px;
+            margin-top: 100px;
+        }
+        .product {
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 300px;
+        }
+        .price {
+            margin-left:77px;
+            width: 300px;
+        }
+        .disc-per {
+            margin-left:9px;
+            width: 300px;
+        }
+        .disc-amount {
+            margin-left:18px;
+            width: 200px;
+        }
+        .disc-price {
+            margin-left:30px;
+            width: 300px;
+        }
+        .button {
+            margin-left: 160px;
+        }
+
+        button {
+            width: 80px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <h2>Product Discount Calculator</h2>
+        <div class="calc" >
+           <div >
+            <label for="Product description">Product Description</label>
+            <input class="product" type="text" >
+           </div>
+    <br/>
+
+    <div >
+        <label for="list price" role=""> List Price   </label>
+        <input class="price" type="number" >
+    </div>
+    <br/>
+
+    <div >
+        <label for="discount percentage">Discount percentage</label>
+    <input class="disc-per" type="number" >%
+    </div>
+    <br/>
+
+    <div >
+    <label for="discounted amount" class="lb">Discounted Amount</label>
+    <input class="disc-amount" type="number" >
+    </div>
+    <br/>
+
+    <div >
+    <label for="discounted price" class="lb">Discounted Price</label>
+    <input class="disc-price" type="number" >
+    </div>
+
+    <br/>
+    <br/>
+    <div class="button">
+        <button type="button" role="math">Calculate</button>
+        <button type="reset" >Reset</button>
+    </div>
+   
+
+</body>
+</html>
